@@ -7,19 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A6C072D2681107700D6221D /* ContactListDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6C072C2681107700D6221D /* ContactListDescription.swift */; };
+		6A6C07302681179900D6221D /* PersonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6C072F2681179900D6221D /* PersonRow.swift */; };
 		6A7B3810267FE47000582D63 /* ContactsListSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7B380F267FE47000582D63 /* ContactsListSwiftUIApp.swift */; };
 		6A7B3812267FE47000582D63 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7B3811267FE47000582D63 /* ContentView.swift */; };
 		6A7B3814267FE47100582D63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A7B3813267FE47100582D63 /* Assets.xcassets */; };
 		6A7B3817267FE47100582D63 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A7B3816267FE47100582D63 /* Preview Assets.xcassets */; };
+		6A7B3820267FE52F00582D63 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7B381F267FE52F00582D63 /* Person.swift */; };
+		6A7B3823267FE5A100582D63 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7B3822267FE5A100582D63 /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6A6C072C2681107700D6221D /* ContactListDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListDescription.swift; sourceTree = "<group>"; };
+		6A6C072F2681179900D6221D /* PersonRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonRow.swift; sourceTree = "<group>"; };
 		6A7B380C267FE47000582D63 /* ContactsListSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactsListSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A7B380F267FE47000582D63 /* ContactsListSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsListSwiftUIApp.swift; sourceTree = "<group>"; };
 		6A7B3811267FE47000582D63 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6A7B3813267FE47100582D63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A7B3816267FE47100582D63 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6A7B3818267FE47100582D63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A7B381F267FE52F00582D63 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		6A7B3822267FE5A100582D63 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +61,11 @@
 			isa = PBXGroup;
 			children = (
 				6A7B380F267FE47000582D63 /* ContactsListSwiftUIApp.swift */,
+				6A7B381F267FE52F00582D63 /* Person.swift */,
+				6A7B3822267FE5A100582D63 /* DataManager.swift */,
 				6A7B3811267FE47000582D63 /* ContentView.swift */,
+				6A6C072F2681179900D6221D /* PersonRow.swift */,
+				6A6C072C2681107700D6221D /* ContactListDescription.swift */,
 				6A7B3813267FE47100582D63 /* Assets.xcassets */,
 				6A7B3818267FE47100582D63 /* Info.plist */,
 				6A7B3815267FE47100582D63 /* Preview Content */,
@@ -139,7 +151,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A7B3812267FE47000582D63 /* ContentView.swift in Sources */,
+				6A6C07302681179900D6221D /* PersonRow.swift in Sources */,
+				6A7B3820267FE52F00582D63 /* Person.swift in Sources */,
+				6A7B3823267FE5A100582D63 /* DataManager.swift in Sources */,
 				6A7B3810267FE47000582D63 /* ContactsListSwiftUIApp.swift in Sources */,
+				6A6C072D2681107700D6221D /* ContactListDescription.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

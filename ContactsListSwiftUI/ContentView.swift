@@ -8,14 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    let persons: [Person]
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        List(persons) { person in
+            PersonRow(person: person)
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(persons: Person.getContactList())
     }
 }
