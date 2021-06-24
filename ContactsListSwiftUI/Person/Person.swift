@@ -9,9 +9,7 @@ import Foundation
 
 struct Person: Identifiable {
     
-    var id: ObjectIdentifier
-    
-    
+    let id = UUID()
     let name: String
     let surname: String
     let email: String
@@ -31,12 +29,10 @@ extension Person {
         let surnames = DataManager.shared.surnames.shuffled()
         let emails = DataManager.shared.emails.shuffled()
         let phoneNumbers = DataManager.shared.phoneNumbers.shuffled()
-        
-        let iterationCount = min(names.count, surnames.count, emails.count, phoneNumbers.count)
-        
-        for index in 0..<iterationCount {
+                
+        for index in 0..<names.count {
             let person = Person(
-                id: 1, name: names[index],
+                name: names[index],
                 surname: surnames[index],
                 email: emails[index],
                 phoneNumber: phoneNumbers[index]
@@ -47,5 +43,12 @@ extension Person {
         
         return persons
     }
+}
+
+enum SystemImages: String {
+    case phone = "phone"
+    case email = "tray"
+    case avatar = "person.fill"
+    case contacts = "person.3"
 }
 
